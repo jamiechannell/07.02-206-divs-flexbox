@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Make me into a grid!</title>
+        <title>Here's a flexbox layout!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,23 +15,31 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&family=Yeseva+One&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <section class="wrapper">
-            <div class="div-1">
-                <p>Cupcake ipsum dolor sit amet cookie toffee lollipop. Sugar plum soufflé chocolate bar chocolate cake gummies lemon drops topping. </p>
+        <section class="flex-container">
+            <header>
+              <h1>Hi. I'm Jamie.</h1>
+            </header>
+            <main>
+                <p>I am a <span>Graphic Designer</span> who is learning to code. When I'm not working, traveling or pursuing side projects, I can be found reading, playing video games, or hanging out with my dog at the beach.</p>
+            </main>
+            <div id="div-1" class="flex-items">
+                <p><span>Cupcake</span> ipsum dolor sit amet cookie toffee lollipop. Sugar plum soufflé chocolate bar chocolate cake gummies lemon drops topping. </p>
             </div>
-            <div class="div-2">
-                <p>Ice cream sugar plum caramels cake cheesecake icing croissant I love liquorice. Muffin biscuit donut I love sweet.</p>
-              </div>
-            <div class="div-3">
-                <p>Sugar plum soufflé chocolate bar chocolate cake gummies lemon drops topping. Muffin biscuit donut I love sweet.</p>
+            <div id="div-2" class="flex-items">
+                <p><span>Ice cream</span> sugar plum caramels cake cheesecake icing croissant I love liquorice. Muffin biscuit donut I love sweet.</p>
             </div>
+            <div id="div-3" class="flex-items">
+                <p><span>Sugar plum</span> soufflé chocolate bar chocolate cake gummies lemon drops topping. Muffin biscuit donut I love sweet.</p>
+            </div>
+            <footer>
+            </footer>
         </section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
